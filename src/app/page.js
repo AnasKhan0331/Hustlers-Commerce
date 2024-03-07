@@ -1,12 +1,17 @@
-import React from 'react'
-import Home from './Pages/Home/Home'
+"use client";
+import { CssBaseline } from "@mui/material";
+import { ThemeProvider } from "@mui/material/styles";
+import { createCustomTheme } from "./Theme/theme";
 
-const page = () => {
+const Page = () => {
+  const theme = createCustomTheme();
   return (
-    <div>
-      <Home />
-    </div>
-  )
-}
+    <>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+      </ThemeProvider>
+    </>
+  );
+};
 
-export default page
+export default Page;
