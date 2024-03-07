@@ -64,7 +64,7 @@ function Header(props) {
                 width: "100% !important", height: "50px",
                 justifyContent: "center", display: "flex", alignItems: "center", background: "#FF6200"
             }}>
-                <Link href='/home' style={{ color: "#fff", textDecoration: "none" }}>
+                <Link href='/home' style={{ color: "#fff", textDecoration: "none", fontFamily: 'Montserrat' }}>
                     Hustlers
                 </Link>
             </Box>
@@ -117,7 +117,7 @@ function Header(props) {
                                 width: "140px !important", height: "45px",
                                 justifyContent: "center", display: "flex", alignItems: "center", background: "#FF6200"
                             }}>
-                                <Link href={'/home'} style={{ color: "#fff", textDecoration: "none" }}>
+                                <Link href={'/home'} style={{ color: "#fff", textDecoration: "none", fontFamily: 'Montserrat' }}>
                                     Hustlers
                                 </Link>
                             </Box>

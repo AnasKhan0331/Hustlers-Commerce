@@ -8,7 +8,7 @@ const Page = () => {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <CssBaseline />
+        {/* <CssBaseline /> */}
       </ThemeProvider>
     </>
   );

@@ -1,10 +1,8 @@
-//client-side
+//use client
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./Pages/Header/Header";
 import Footer from "./Pages/Footer/Footer";
-import { Box } from "@mui/material";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
