@@ -217,6 +217,7 @@ export const womenProductData = [
     },
 
 ]
+//Footer Data
 export const listItems = [
     {
         text: "Shop All"
@@ -258,4 +259,68 @@ export const faqListItems = [
     {
         text: "Payment Methods"
     },
+]
+
+//Footer Data
+export const contactUsData = [
+    {
+        heading: "Flagship Store",
+        title1: "500 Terry Francine St.",
+        title2: "San Francisco, CA 94158.",
+        title3: "123-456-7890",
+    },
+    {
+        heading: "Opening Hours",
+        title1: "Mon - Fri: 7am - 10pm",
+        title2: "​​Saturday: 8am - 10pm",
+        title3: "​Sunday: 8am - 11pm",
+    },
+    {
+        heading: "Customer Service",
+        title1: "1-800-000-000",
+        title2: "123-456-7890",
+        title3: "info@my-domain.com",
+        fontWeight: 900
+    },
+
+]
+
+export const stockList = [
+    {
+        heading: "500 Terry Francine St.",
+        title1: "500 Terry Francine St.",
+        title2: "San Francisco, CA 94158",
+        title3: "123-456-7890",
+    },
+    {
+        heading: "500 Terry Francine St.",
+        title1: "500 Terry Francine St.",
+        title2: "San Francisco, CA 94158",
+        title3: "123-456-7890",
+    },
+    {
+        heading: "500 Terry Francine St.",
+        title1: "500 Terry Francine St.",
+        title2: "San Francisco, CA 94158",
+        title3: "123-456-7890",
+    },
+    {
+        heading: "500 Terry Francine St.",
+        title1: "500 Terry Francine St.",
+        title2: "San Francisco, CA 94158",
+        title3: "123-456-7890",
+    },
+    {
+        heading: "500 Terry Francine St.",
+        title1: "500 Terry Francine St.",
+        title2: "San Francisco, CA 94158",
+        title3: "123-456-7890",
+    },
+    {
+        heading: "500 Terry Francine St.",
+        title1: "500 Terry Francine St.",
+        title2: "San Francisco, CA 94158",
+        title3: "123-456-7890",
+    },
+
 ]
