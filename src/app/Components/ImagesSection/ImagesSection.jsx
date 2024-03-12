@@ -16,7 +16,7 @@ const ImagesSection = () => {
   return (
     <Box sx={{ width: "100%", mt: 1 }}>
       <Grid container spacing={2}>
-        <Grid item lg={3} md={3} sm={6}>
+        <Grid item lg={3} md={3} sm={6} xs={12}>
           <Box data-aos="flip-left" sx={{ width: "100%", height: "500px" }}>
             <Image
               src={bannerOne}
@@ -30,7 +30,7 @@ const ImagesSection = () => {
             />
           </Box>
         </Grid>
-        <Grid item lg={3} md={3} sm={6}>
+        <Grid item lg={3} md={3} sm={6} xs={12}>
           <Box data-aos="flip-left" sx={{ width: "100%", height: "500px" }}>
             <Image
               src={bannerTwo}

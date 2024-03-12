@@ -1,8 +1,8 @@
+'use client';
 import CardComp from '@/app/common/Card/Card'
 import Heading from '@/app/common/Heading/Heading'
 import { Box, Grid } from '@mui/material'
 import React, { useEffect } from 'react'
-import bannerTwo from "../../../../public/assets/images/banner2.webp";
 import { productData } from '../../../../public/static/staticdata';
 import "aos/dist/aos.css";
 import AOS from "aos";

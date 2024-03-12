@@ -1,5 +1,5 @@
 import React from 'react'
-import bannerImg from "../../../assets/images/one.png"
+// import bannerImg from "../../../assets/images/one.png"
 const FormComponent = () => {
     return (
         <div className='parent-class' style={{ background: "#F8F7FC", minHeight: "100vh", display: "flex", justifyContent: "center", alignItems: "center" }}>

@@ -13,7 +13,7 @@ const BannerSections = () => {
             fontFamily: "'Montserrat', sans-serif",
         }}>
             <Grid container sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-                <Grid item lg={8} md={10} sm={12} xs={12} sx={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", color: "#fff" }}>
+                <Grid item lg={8} md={10} sm={12} xs={12} sx={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", color: "#fff", }}>
                     <Typography sx={{
                         fontFamily: 'Montserrat',
                         fontSize: {
@@ -22,6 +22,7 @@ const BannerSections = () => {
                             sm: "40px",
                             xs: "30px"
                         },
+                        mb: 2,
                         fontWeight: "700"
                     }}>Free Shipping</Typography>
                     <Typography sx={{
@@ -37,9 +38,9 @@ const BannerSections = () => {
                     <Box sx={{
                         width: "100%", display: "flex", justifyContent: "space-evenly", mt: 4, flexWrap: "wrap",
                     }}>
-                        <ButtonComp text={"Shop Women"} sx={{ mb: 1, backgroundColor: "none", border: "2px solid #fff", borderRadius: "0px", width: "230px", fontFamily: 'Montserrat' }} />
-                        <ButtonComp text={"Shop Men"} sx={{ mb: 1, backgroundColor: "none", border: "2px solid #fff", borderRadius: "0px", width: "230px" }} />
-                        <ButtonComp text={"Shop Sale"} sx={{ mb: 1, backgroundColor: "none", border: "2px solid #fff", borderRadius: "0px", width: "230px", fontFamily: 'Montserrat' }} />
+                        <ButtonComp text={"Shop Women"} sx={{ mb: 1, fontSize: "17px", backgroundColor: "none", border: "2px solid #fff", borderRadius: "0px", width: "230px", fontFamily: 'Montserrat', height: "45px" }} />
+                        <ButtonComp text={"Shop Men"} sx={{ mb: 1, backgroundColor: "none", border: "2px solid #fff", borderRadius: "0px", width: "230px", fontSize: "17px", fontFamily: 'Montserrat', height: "45px" }} />
+                        <ButtonComp text={"Shop Sale"} sx={{ mb: 1, backgroundColor: "none", border: "2px solid #fff", borderRadius: "0px", width: "230px", fontFamily: 'Montserrat', fontSize: "17px", height: "45px" }} />
                     </Box>
                 </Grid>
             </Grid>

@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 const drawerWidth = 240;
 const navItems = [
-    { path: '/home', text: 'Home' },
+    { path: '/', text: 'Home' },
     { path: '/shop-all', text: 'Shop All' },
     { path: '/women', text: 'Women' },
     { path: '/men', text: 'Men' },
